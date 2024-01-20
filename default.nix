@@ -21,6 +21,7 @@ in pkgs.mkShell rec {
     pythonPackages.numpy
     pythonPackages.pandas
     pythonPackages.requests
+    pythonPackages.torch
 
     # sometimes you might need something additional like the following - you will get some useful error if it is looking for a binary in the environment.
     taglib
